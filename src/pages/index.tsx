@@ -5,5 +5,10 @@ const Button = styled('button', {
 })
 
 export default function Home() {
-  return <Button>Hello World!</Button>
+  return (
+    <div>
+      <Button>Hello World!</Button>
+      <span>Hello</span>
+    </div>
+  )
 }
